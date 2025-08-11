@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cronómetro</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <div class="min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-blue-100 to-purple-200">
+        <h1 class="text-4xl font-bold mb-8 text-purple-700 drop-shadow">Cronómetro</h1>
+        <div id="display"
+            class="text-5xl font-mono font-semibold text-blue-900 bg-white rounded-lg shadow px-12 py-6 mb-8 border-4 border-purple-300">
+            0 s</div>
+        <div class="flex gap-4">
+            <input type="button" id="btn-iniciar" value="Iniciar"
+                class="px-6 py-2 bg-green-500 hover:bg-green-600 text-white font-bold rounded-lg shadow transition duration-200">
+            <input type="button" id="btn-pausar" value="Pausar"
+                class="px-6 py-2 bg-yellow-400 hover:bg-yellow-500 text-white font-bold rounded-lg shadow transition duration-200">
+            <input type="button" id="btn-reiniciar" value="Reiniciar"
+                class="px-6 py-2 bg-red-500 hover:bg-red-600 text-white font-bold rounded-lg shadow transition duration-200">
+        </div>
+    </div>
+</body>
+
+</html>
